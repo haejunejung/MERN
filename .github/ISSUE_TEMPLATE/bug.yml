@@ -1,0 +1,27 @@
+name: Bug 😡
+description: Tell us about any bugs you find
+title: "[Bug]: "
+labels: ["Bug Report 😡"]
+body:
+  - type: textarea
+    id: bug
+    attributes:
+      label: "Bug report ✍️"
+      description: Please write a description of the bug or error
+    validations:
+      required: true
+  - type: textarea
+    id: modification
+    attributes:
+      label: "How to fix? 🤔"
+      description: Please tell me how to fix it
+    validations:
+      required: false
+
+  - type: textarea
+    id: expectation
+    attributes:
+      label: "Expection 👀"
+      description: Please write a description of what you expect to happen
+    validations:
+      required: false

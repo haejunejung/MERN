@@ -1,0 +1,19 @@
+name: Feature 🤩
+description: Submit a proposal for a new feature
+title: "[Feature]: "
+labels: ["Feature 🤩"]
+body:
+  - type: textarea
+    id: motivation
+    attributes:
+      label: "Motivation 🧐"
+      description: Why did you do this?
+    validations:
+      required: true
+  - type: textarea
+    id: todo
+    attributes:
+      label: "TO DO 📑"
+      description: What are you going to do?
+    validations:
+      required: true
